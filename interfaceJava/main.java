@@ -1,10 +1,12 @@
 package interfaceJava;
 
-public class main {
+public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	   public static void main(String[] args) {
+		
+		AL myWindow = new AL("My first window");
+		myWindow.setSize(350, 100);
+		myWindow.setVisible(true);
+		
 	}
-
 }
